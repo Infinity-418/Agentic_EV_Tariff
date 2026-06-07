@@ -1,0 +1,23 @@
+# Raw datasets (large files downloaded dynamically)
+acndata_sessions.json
+ST-EVCDP-main.zip
+
+# System and Cache files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary verification files
+plots/slide_0_footer.png
+plots/slide_0_footer_patched.png
+plots/verify_slide_1_footer.png
+plots/verify_slide_2_footer.png
