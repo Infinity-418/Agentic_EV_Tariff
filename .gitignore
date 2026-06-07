@@ -2,6 +2,9 @@
 acndata_sessions.json
 ST-EVCDP-main.zip
 
+# Google Drive Submission Folder (ignored in Git repo, kept locally)
+Google_Drive_Submission/
+
 # System and Cache files
 .DS_Store
 .DS_Store?
