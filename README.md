@@ -6,7 +6,7 @@ This repository contains an agentic AI framework designed to transition EV charg
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 *   `EV_Tariff_optimization_24124005.ipynb` - Main Jupyter Notebook containing the full data pipeline, ML models, and simulation loops.
 *   `README.md` - Project overview, agentic architecture, metrics, and key results.
@@ -20,7 +20,7 @@ This repository contains an agentic AI framework designed to transition EV charg
 
 ---
 
-## ⚙️ Preprocessing & Key Formulations
+##  Preprocessing & Key Formulations
 
 1.  **Dataset Alignment**: Session-level driver behaviors are extracted from **Caltech/JPL ACN-Data**, while temporal occupancy signals are modeled from **Shenzhen UrbanEV (ST-EVCDP)**.
 2.  **Queue Length Proxy**: Modeled when occupancy rate exceeds 85% to proxy driver wait times:
@@ -32,7 +32,7 @@ This repository contains an agentic AI framework designed to transition EV charg
 
 ---
 
-## 🤖 Agentic Pipeline Architecture
+##  Agentic Pipeline Architecture
 
 ```
                  +-----------------------------+
@@ -73,7 +73,7 @@ $$\text{Reward} = \text{Revenue Gain \%} + 0.10 \times \text{Queue Reduction \%}
 
 ---
 
-## 📈 Key Results (Episode 40)
+##  Key Results (Episode 40)
 
 *   **Total Revenue Gain**: **+6.75%** overall yield increase (yields ₹16.126/kWh vs ₹15.00 flat baseline).
 *   **Congestion & Wait Lines**: **-53.77%** reduction in peak-hour queue length.
